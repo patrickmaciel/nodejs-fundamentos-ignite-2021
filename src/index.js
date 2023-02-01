@@ -12,7 +12,7 @@ app.get('/courses', (req, res) => {
 });
 
 app.get('/courses/:id', (req, res) => {
-    return res.json(["Curso 1", "Curso 2", "Curso 3"]);
+    return res.json(["Curso 10", "Curso 2", "Curso 3"]);
 });
 
 app.post('/courses', (req, res) => {
